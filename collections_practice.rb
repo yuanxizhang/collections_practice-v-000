@@ -43,7 +43,6 @@ def sum_array(a)
 end 
 
 def add_s(a)
-  result = []
   a.each_with_index do |e, index|
     if index == 1
       e[1] = e[1]
@@ -51,6 +50,5 @@ def add_s(a)
       e[e.length] = "s"
     end
   end
-  result
 end
   
