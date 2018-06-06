@@ -24,4 +24,11 @@ def reverse_array(a)
   result = a.reverse 
 end
 
-def 
+def kesha_maker(a)
+  result = []
+  a.each do |e| 
+    e[2] = $
+    result << e 
+  end
+end
+  
