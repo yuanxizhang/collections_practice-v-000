@@ -48,7 +48,7 @@ def add_s(a)
     if index == 1
       e[1] = e[1]
     else 
-      e = e.split.push("s").join
+      e[index] = e[index].split.push("s").join
     end
   end
 end
