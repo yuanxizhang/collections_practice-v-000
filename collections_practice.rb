@@ -19,9 +19,7 @@ def swap_elements(a)
 end
 
 def swap_elements_from_to(a, index_from, index_to)
-  x = a[]
-  y = a[2]
-  a[1] = y 
-  a[2] = x 
+  x = a[index_from]
+  a[] = x 
   return a
 end
