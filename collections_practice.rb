@@ -17,3 +17,5 @@ def swap_elements(a)
   a[2] = x 
   return a
 end
+
+def swap_elements_from_to(a, index_from, index_to)
