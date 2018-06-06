@@ -16,7 +16,6 @@ def swap_elements(a)
 end
 
 def swap_elements_from_to(a, index_from, index_to)
-  x = a[index_from]
-  a[index_to] = x 
+  a.insert(index_to, a.delete_at(index_from))
   return a
 end
