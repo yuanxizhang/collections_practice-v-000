@@ -30,5 +30,6 @@ def kesha_maker(a)
     e[2] = $
     result << e 
   end
+  result
 end
   
