@@ -27,7 +27,7 @@ end
 def kesha_maker(a)
   result = []
   a.each do |e| 
-    e[2] = $
+    e[2] = "$"
     result << e 
   end
   result
