@@ -32,4 +32,8 @@ def kesha_maker(a)
   end
   result
 end
+
+def find_a(a)
+  a.select {|e| e[0] == "a" }
+end
   
