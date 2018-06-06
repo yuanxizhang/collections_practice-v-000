@@ -20,6 +20,6 @@ end
 
 def swap_elements_from_to(a, index_from, index_to)
   x = a[index_from]
-  a[] = x 
+  a[index_to] = x 
   return a
 end
