@@ -10,4 +10,5 @@ def sort_array_char_count(a)
   sorted = a.sort {|x,y| x.length <=> y.length}
 end
 
-def 
+def swap_elements(a)
+  sorted = 
