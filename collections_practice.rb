@@ -25,12 +25,7 @@ def reverse_array(a)
 end
 
 def kesha_maker(a)
-  result = []
-  a.each do |e| 
-    e[2] = "$"
-    result << e 
-  end
-  result
+  a.map {|e| e[2] = "$"} 
 end
 
 def find_a(a)
@@ -42,4 +37,8 @@ def sum_array(a)
   a.each {|e| sum += e }
   sum
 end 
+
+def add_s(a)
+  result = []
+  a.each = 
   
