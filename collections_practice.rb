@@ -51,5 +51,6 @@ def add_s(a)
       e[e.length] = "s"
     end
   end
+  result
 end
   
