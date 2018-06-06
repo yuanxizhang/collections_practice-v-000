@@ -48,7 +48,7 @@ def add_s(a)
     if index == 1
       e[1] = e[1]
     else 
-      e += "s"
+      e[index] = e[index] + "s"
     end
   end
 end
