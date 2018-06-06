@@ -40,5 +40,12 @@ end
 
 def add_s(a)
   result = []
-  a.each = 
+  a.each_with_index do |e, index|
+    if index == 1
+      e[1] = e[1]
+    else 
+      e[index] += "s"
+    end
+  end
+end
   
