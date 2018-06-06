@@ -19,3 +19,7 @@ def swap_elements_from_to(a, index_from, index_to)
   a.insert(index_to, a.delete_at(index_from))
   return a
 end
+
+def reverse_array(a)
+  result = a.reverse 
+end
